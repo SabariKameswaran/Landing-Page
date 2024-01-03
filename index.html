@@ -467,7 +467,9 @@ form.addEventListener('submit', handleFormSubmission);
               name="PhoneNumber"
               id="phoneno"
               placeholder="Phone Number*"
-              type="number"
+              type="tel"
+              pattern="[0-9]{10}"
+              title="Please enter a 10-digit phone number"
               required
             />
             <input
